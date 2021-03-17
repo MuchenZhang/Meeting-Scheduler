@@ -1,0 +1,41 @@
+@font-face {
+  font-family: pretendo;
+  src: url(../fonts/Pretendo.ttf);
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+.box{
+	position: relative;
+	width: 30%;
+	height: 40%;
+	background-color: #e5e5e5;
+	float: left;
+	display: inline-block;
+	margin-top: 15%;
+}
+
+.left{
+	margin-left: 15%;
+	float: left;
+}
+
+.right{
+	margin-right: 15%;
+	float: right;
+}
+
+.title{
+	position: relative;
+	text-align: center;
+	font-family: pretendo;
+	font-size: 150%;
+	display: inline-block;
+	width: 100%;
+	top: 20%;
+	-webkit-user-select:none;
+	color: black;
+}
